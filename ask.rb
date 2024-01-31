@@ -1,4 +1,4 @@
-class HelloWorld < Formula
+class Ask < Formula
   desc "Ask lets you get shell commands using natural language by guessing your shell and prompting ChatGPT"
   homepage "https://github.com/damoonrashidi/homebrew_ask"
   url "https://github.com/damoonrashidi/ask/archive/refs/tags/1.1.0.tar.gz"
@@ -13,7 +13,6 @@ class HelloWorld < Formula
   end
 
   test do
-    # This test is not good!
-    system "#{bin}/hello", "--version"
+    system "#{bin}/ask", "--version"
   end
 end
