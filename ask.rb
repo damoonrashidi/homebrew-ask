@@ -1,9 +1,9 @@
 class Ask < Formula
   desc "Ask lets you get shell commands using natural language by guessing your shell and prompting ChatGPT"
   homepage "https://github.com/damoonrashidi/homebrew_ask"
-  url "https://github.com/damoonrashidi/ask/archive/refs/tags/1.1.0.tar.gz"
-  version "1.1.0"
-  sha256 "8d438fc7215b69e4af2c4dde5b3a52d0d5e3e23c3ccdafc82a266b383dda0ce6"
+  url "https://github.com/damoonrashidi/ask/archive/refs/tags/1.2.0.tar.gz"
+  version "1.2.0"
+  sha256 "45d5446397f78335e455aa79cf4ad489233df0d71e05b5117dd0f04a04e1ec84"
 
   depends_on "rust" => :build
 
